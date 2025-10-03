@@ -1,5 +1,5 @@
-.card {
-    border : 2px solid teal;
-    padding : 20px;
-    border-radius: 20px;
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
 }
