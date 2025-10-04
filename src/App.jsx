@@ -10,7 +10,7 @@ function App() {
   return (
     <>
      
-      <h3>Buy Awesome Product</h3>
+     <h3>Buy Awesome Product</h3>
       <Suspense fallback={<h3>Phones are coming...</h3>}>
         <Products productPromise={productPromise}></Products>
       </Suspense>
